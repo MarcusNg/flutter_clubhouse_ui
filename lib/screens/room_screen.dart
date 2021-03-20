@@ -120,7 +120,7 @@ class RoomScreen extends StatelessWidget {
               sliver: SliverGrid.count(
                 mainAxisSpacing: 20.0,
                 crossAxisCount: 4,
-                childAspectRatio: 0.8,
+                childAspectRatio: 0.7,
                 children: room.followedBySpeakers
                     .map(
                       (e) => RoomUserProfile(
@@ -150,7 +150,7 @@ class RoomScreen extends StatelessWidget {
               sliver: SliverGrid.count(
                 mainAxisSpacing: 20.0,
                 crossAxisCount: 4,
-                childAspectRatio: 0.8,
+                childAspectRatio: 0.7,
                 children: room.others
                     .map(
                       (e) => RoomUserProfile(
